@@ -1,0 +1,29 @@
+html {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: azure;
+    }
+div {
+    width: 300px;
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    color: aliceblue;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.2) 100%), lightblue;
+    font-size: 1.5rem; /* I looked it up online, a simple google search said that 1.5rem is equivalent to 18pixels */
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px lightblue;
+    border: 1px solid rgb(71, 69, 69);
+    border-radius: 8px;
+    box-shadow:
+    0px 0px 10px rgba(0, 0, 0, 0.5), inset 5px 5px 10px rgba(255, 255, 255, 0.5), inset -5px -5px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Your CSS below here */
