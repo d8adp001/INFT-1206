@@ -46,19 +46,17 @@
   @font-face {
     font-family: 'Aaargh-Regular';
     src: url('Aaargh.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: 'Aaargh-regular';
+    src: url('Aaargh.ttf');
+    font-weight: 100;
     font-style: normal;
   }
 
-  @font-face {
-    font-family: 'Aaargh-Thin';
-    src: url('Aaargh.ttf');
-    font-weight: 100;
-    font-style: thin;
-  }
-
   html {
-    font-family: 'Aaargh-Regular', sans-serif;
+    font-family: 'Aaargh-bold', sans-serif;
     font-size: 10px;
   }
 
