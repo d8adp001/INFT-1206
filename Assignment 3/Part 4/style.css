@@ -1,73 +1,82 @@
+/* Body Styles */
 body {
-    background-color: #fff;
-    color: #333;
-    margin: 0;
-    font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
-  }
+  background-color: #fff; /* Set background color to white */
+  color: #333; /* Set text color to dark gray */
+  margin: 0; /* Remove default margin */
+  font: 1.2em / 1.2 Arial, Helvetica, sans-serif; /* Set font size, line height, and font family */
+}
 
+/* Image Styles */
 img {
-    max-width: 100%;
-    display: block;
-  }
-  
+  max-width: 100%; /* Ensure images do not exceed their container width */
+  display: block; /* Make images block-level elements */
+}
+
+/* Logo Styles */
 .logo {
-    font-size: 200%;
-    padding: 50px 20px;
-    margin: 0 auto;
-    max-width: 980px;
-  }
-  
+  font-size: 200%; /* Set font size for the logo */
+  padding: 50px 20px; /* Set padding for the logo */
+  margin: 0 auto; /* Center the logo with auto margins */
+  max-width: 980px; /* Set maximum width for the logo */
+}
+
+/* Grid Styles */
 .grid {
-    margin: 70px auto 0;
-    padding: 0 20px;
-    max-width: 980px;
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  
+  margin: 70px auto 0; /* Set margin and center the grid */
+  padding: 0 20px; /* Set padding for the grid */
+  max-width: 980px; /* Set maximum width for the grid */
+  display: grid; /* Use grid display */
+  grid-template-columns: 1fr; /* Single column grid */
+}
+
+/* Navigation Styles */
 nav {
-    background-color: #000;
-    padding: .5em 0;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    display:grid;
-    grid-template-columns: repeat(5, 1fr);
-  }
+  background-color: #000; /* Set background color for the navigation */
+  padding: .5em 0; /* Set padding for the navigation */
+  width: 100%; /* Set width to 100% */
+  position: fixed; /* Fixed position at the top */
+  top: 0; /* Align to the top */
+  display: grid; /* Use grid display for navigation */
+  grid-template-columns: repeat(5, 1fr); /* 5 equal-width columns */
+}
 
 nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
-  
+  margin: 0; /* Remove margin from the navigation ul */
+  padding: 0; /* Remove padding from the navigation ul */
+  list-style: none; /* Remove list styles */
+  display: flex; /* Use flexbox for navigation items */
+  justify-content: space-between; /* Distribute items evenly */
+  width: 100%; /* Set width to 100% */
+}
+
 nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: .5em 1em;
-  }
+  color: #fff; /* Set text color to white for navigation links */
+  text-decoration: none; /* Remove underline from links */
+  padding: .5em 1em; /* Set padding for navigation links */
+}
 
-article{
-    margin-right: 20px;
-  }
+/* Article Styles */
+article {
+  margin-right: 20px; /* Set right margin for articles */
+}
 
-aside{
-    flex: 0 0 300px;
-    margin-top: 70px;
-  }
-  
+/* Aside Styles */
+aside {
+  flex: 0 0 300px; /* Set flex properties for aside */
+  margin-top: 70px; /* Set top margin for aside */
+}
+
+/* Photos Styles */
 .photos {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 1px;
-  }
+  list-style: none; /* Remove list styles from photos */
+  margin: 0; /* Remove margin from photos */
+  padding: 0; /* Remove padding from photos */
+  display: grid; /* Use grid display for photos */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* 5 equal-width columns */
+  gap: 1px; /* Set gap between photos */
+}
 
+/* Feature Styles */
 .feature {
-      width: 100%;
-  }
+  width: 100%; /* Set width to 100% for features */
+}
